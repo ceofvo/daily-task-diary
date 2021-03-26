@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0 auto;
+	width: 650px;
+}
+
+.headings{
+	text-align: center;
+}
+
+form{
+	background: #f1f1f1;
+	padding: 20px 20px;
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+  border-radius: 5px;
+	margin: 90px 5px;
+}
+
+label{
+  margin-bottom: 25px;
+  display: block;
+}
+
+input{
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+#search-submit, #clear-data {
+  padding: 19px 39px 18px 39px;
+  color: #ffffff;
+  background-color: #2471A3;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid #2471A3;
+ }
+ 
+ .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.wrapper input[type="text"] {
+    flex: 1 1 auto;
+  }
+
+ 
